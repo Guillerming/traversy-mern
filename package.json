@@ -1,0 +1,29 @@
+{
+  "name": "traversy-mern",
+  "version": "1.0.0",
+  "description": "Goal setter app for youtube tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guillerming/traversy-mern.git"
+  },
+  "author": "Guillerming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guillerming/traversy-mern/issues"
+  },
+  "homepage": "https://github.com/Guillerming/traversy-mern#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
